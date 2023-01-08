@@ -1,0 +1,58 @@
+.header {
+    background-color: #111619;
+}
+.header-block  {
+    @include flex(space-between, start, center);
+    max-width: 1820px;
+    height: 100px;
+    margin: 0 auto;
+    color: #53595c;
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 15px;
+    .part1 {
+        padding-top: 60px;
+        display: flex;
+        &__logo {
+            width: 120px;
+            height: 30px;
+            margin-right: 85px
+        }
+        &-phone {
+            @include flex;
+            &__phone {
+                &_icon {
+                   margin-right: 15px;
+                }
+            }
+        }
+    }
+    .part2 {
+        padding-top: 50px;
+        @include flex;
+        &-menu {
+            @include flex;
+            &__items {
+                margin-right: 70px;
+            }
+            &__items:last-child {
+                margin-right: 80px;
+            }
+        }
+    }
+}
+.social {
+    @include flex (center, flex-end, column);
+    max-width: 1820px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding-right: 13px;
+    .social-items {
+        &__icon {
+            margin-bottom: 40px;
+        }
+        &__icon:last-child {
+            margin-bottom:0px;
+        }
+    }
+}

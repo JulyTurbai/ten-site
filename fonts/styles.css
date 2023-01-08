@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'ofont.ru_Playfair Display';
+  src: url(./ofont.ru_Playfair+Display.eot);
+  src: url(./ofont.ru_Playfair+Display.eot?#iefix) format('embedded-opentype'),
+       url(./ofont.ru_Playfair+Display.otf) format('otf'),
+       url(./ofont.ru_Playfair+Display.svg#ofont.ru_Playfair%20Display) format('svg'),
+       url(./ofont.ru_Playfair+Display.ttf) format('truetype'),
+       url(./ofont.ru_Playfair+Display.woff) format('woff'),
+       url(./ofont.ru_Playfair+Display.woff2) format('woff2');
+}

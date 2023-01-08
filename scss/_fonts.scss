@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'ofont.ru_Playfair Display';
+    src: url(../fonts/./ofont.ru_Playfair+Display.eot);
+    src: url(../fonts/./ofont.ru_Playfair+Display.eot?#iefix) format('embedded-opentype'),
+         url(../fonts/./ofont.ru_Playfair+Display.otf) format('otf'),
+         url(../fonts/./ofont.ru_Playfair+Display.svg#ofont.ru_Playfair%20Display) format('svg'),
+         url(../fonts/./ofont.ru_Playfair+Display.ttf) format('truetype'),
+         url(../fonts/./ofont.ru_Playfair+Display.woff) format('woff'),
+         url(../fonts/./ofont.ru_Playfair+Display.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
