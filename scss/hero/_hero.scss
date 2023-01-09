@@ -1,0 +1,95 @@
+.hero {
+    background-color: #111619;
+}
+.hero-block {
+    max-width: 1820px;
+    max-height:815px ;
+    margin: 0 auto;
+}
+.hero-content {
+    @include flex (space-between, center, center);
+    max-width: 1820px;
+    max-height:515px ;
+    margin: 0 auto;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    position: relative;
+    padding-right: 15px;
+        
+    .what {
+        @include flex;
+        &__text {
+            color:#5e00ca;
+            transform: rotate(180deg);
+            writing-mode:vertical-lr;
+            margin-right: 30px;
+            }
+        }
+        &__main-img {
+            display:block;
+            max-width:100%;
+            height:auto;
+        }
+    }
+        .who {
+            @include flex;
+            &__text {
+                color:#31383e;
+                transform: rotate(-180deg);
+                writing-mode:vertical-lr;
+            }
+            
+        
+            &__one {
+                position: absolute;
+                left: 81%;
+            }
+        .line {
+            width: 40px;
+            height: 2px;
+            border: none;
+            color: #5e00ca; 
+            background-color: #5e00ca;
+            position: absolute;
+            right: 3%
+        }
+    }
+    .hero-text {
+        text-align: center;
+        font-family: 'ofont.ru_Playfair Display';
+        font-size: 28px;
+        text-transform: uppercase;
+       font-weight: 100;
+        letter-spacing: 50px;
+        color:#48555d;
+        margin-top: 55px;
+    }
+    .circle-menu {
+        @include flex;
+        margin-top: 100px;
+        .one {
+            @include flex;
+            width: 22px;
+            height: 22px;
+            border: 2px solid #ed751b;
+            border-radius: 50%;
+            margin-right: 15px;
+            &__inside {
+                width: 6px;
+                height: 6px;
+                background: #ed751b;
+                border-radius: 50%;
+            }
+        }
+        &__items {
+            width: 6px;
+            height: 6px;
+            background: #48555d;
+            border-radius: 50%;
+            margin-right: 25px;
+            &__items:last-child {
+                margin-right: 0;
+        }
+    }
+}

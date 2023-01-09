@@ -1,0 +1,122 @@
+@media (max-width:$headerBP1) {
+    .header-block {
+        margin: 0 30px 0;
+    }
+}
+@media (max-width:$headerBP1) {
+    .social {
+        margin: 25px 30px 0;
+    }
+}
+@media (max-width:$headerBP2) {
+    .part2 {
+        .part2-menu {
+            &__items {
+                margin-right: 30px;
+            }
+            &__items:last-child {
+                margin-right: 40px;
+            }
+        }
+    }
+}
+@media (max-width:$headerBP3) {
+    .part2 {
+        .header-circle {
+            display:flex;
+            margin-right: 30px;
+        }
+        .part2-menu {
+            display:none;
+        }
+    }
+}
+@media (max-width:$headerBP3) {
+    .header-block {
+        .part1 {
+            &__logo {
+                margin-right: 30px
+            }
+        }
+    }
+}
+@media (max-width:$headerBP4) {
+    .header-block {
+        .part1 {
+            &-phone {
+                &__phone_number {
+                    font-size: 12px;
+                }
+                &__phone_icon {
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
+            flex-wrap: wrap;
+            flex-direction: column;
+            &__logo {
+                margin-bottom: 30px;
+                width: 70px;
+                height: 15px;
+            }
+        }   
+    }
+}
+@media (max-width:$headerBP4) {
+    .part2 {
+        .header-circle {
+            margin-right: 20px;
+            .one {
+                width: 15px;
+                height: 15px;
+                &__inside {
+                    width: 3px;
+                    height: 3px;
+                }
+            }
+            &__items {
+                margin-right: 10px;
+                width: 3px;
+                height: 3px;
+            } 
+            &__items:last-child {
+                margin-right:0px;
+            } 
+        }
+    }
+}
+@media (max-width:$headerBP3) {
+    .social {
+        padding-right: 13px;
+        margin-top: 10px;
+        .social-items {
+            &__icon {
+                margin-bottom: 15px;
+                
+            }
+        }
+        
+    }
+}
+@media (max-width:$headerBP4) {
+    .social {
+        padding-right: 0px;
+        
+    }
+}
+@media (max-width:$headerBP4) {
+    .header-block {
+        margin: 0 20px 0;
+        .part1 {
+            padding-top: 40px;
+        }
+        .part2 {
+            padding-top: 25px;
+        }
+    }
+}
+@media (max-width:$headerBP4) {
+    .header-block {
+        margin: 0 20px 0;
+    }
+}

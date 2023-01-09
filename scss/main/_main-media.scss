@@ -1,0 +1,94 @@
+@media (max-width:$mainBP1) {
+    .main-block {
+    .content {
+        margin: 0 30px 0;
+        }
+        
+    }
+}
+@media (max-width:$mainBP1) {
+    .main-text {
+        margin: 30px 30px 0;
+        }
+    }
+    @media (max-width:$mainBP2) {
+        .main-text {
+            font-size: 50px;
+            }
+    }
+    @media (max-width:$mainBP3) {
+        .play-button {
+            &__play {
+                width: 20px;
+                height: 30px;
+            }
+            .ball-one {
+                width: 270px;
+                height: 270px;
+            }
+            .ball-two {
+                width: 230px;
+                height: 230px;
+            }
+            .ball-three {
+                width: 175px;
+                height: 175px;
+               
+            }
+            .ball-four {
+                width: 107px;
+                height: 107px;
+            }
+        }
+       
+    }
+    @media (max-width:$mainBP3) {
+        .main-text {
+            font-size: 40px;
+            }
+    }
+    @media (max-width:$mainBP3) {
+        .main-block {
+            &__signature {
+                margin-top: 50px;
+               }
+        }
+    }
+    @media (max-width:$mainBP4) {
+        .play-button {
+            &__play {
+                width: 10px;
+                height: 15px;
+            }
+            .ball-one {
+                width: 150px;
+                height: 150px;
+            }
+            .ball-two {
+                width: 100px;
+                height: 100px;
+            }
+            .ball-three {
+                width: 80px;
+                height: 80px;
+               
+            }
+            .ball-four {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    @media (max-width:$mainBP3) {
+        .main-text {
+            font-size: 20px;
+            }
+    }
+    @media (max-width:$mainBP4) {
+        .main-block {
+            &__signature {
+                margin-top: 30px;
+                width: 70px;
+               }
+        }
+    }

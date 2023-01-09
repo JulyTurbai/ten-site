@@ -10,6 +10,7 @@
     font-family: 'Lato';
     font-weight: bold;
     font-size: 15px;
+    text-transform: uppercase;
     .part1 {
         padding-top: 60px;
         display: flex;
@@ -43,6 +44,7 @@
 }
 .social {
     @include flex (center, flex-end, column);
+    flex-direction: column;
     max-width: 1820px;
     margin: 0 auto;
     margin-top: 25px;
@@ -53,6 +55,34 @@
         }
         &__icon:last-child {
             margin-bottom:0px;
+        }
+    }
+}
+.header-circle {
+    @include flex;
+    display:none;
+    .one {
+        @include flex;
+        width: 22px;
+        height: 22px;
+        border: 2px solid #ed751b;
+        border-radius: 50%;
+        margin-right: 15px;
+        &__inside {
+            width: 6px;
+            height: 6px;
+            background: #ed751b;
+            border-radius: 50%;
+        }
+    }
+    &__items {
+        width: 6px;
+        height: 6px;
+        background: #48555d;
+        border-radius: 50%;
+        margin-right: 25px;
+        &__items:last-child {
+            margin-right: 0;
         }
     }
 }

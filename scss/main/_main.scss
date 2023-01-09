@@ -1,0 +1,58 @@
+.main {
+    background: #111619;
+    max-width: 100%;
+    
+}
+.main-block {
+    @include flex (center, center, column);
+   max-height: 980px; 
+   padding-top: 30px;
+   &__signature {
+    margin-top: 80px;
+    position: relative;
+   }
+}
+.play-button {
+    @include flex;
+    &__play {
+        position: absolute;
+    }
+    .ball-one {
+        @include flex;
+        width: 404px;
+        height: 404px;
+        background: #181b1f;
+        border-radius: 50%;
+    }
+    .ball-two {
+        @include flex;
+        width: 344px;
+        height: 344px;
+        background: #1e1b23;
+        border-radius: 50%;
+    }
+    .ball-three {
+        @include flex;
+        width: 275px;
+        height: 275px;
+        background: #281e2b;
+        border-radius: 50%;
+    }
+    .ball-four {
+        @include flex;
+        width: 207px;
+        height: 207px;
+        background: #3f223c;
+        border-radius: 50%;
+    }
+}
+.main-text {
+    max-width: 1530px;
+    margin: 0 auto;
+    font-size: 70px;
+    font-family: 'ofont.ru_Playfair Display';
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    margin-top: 100px;
+}
